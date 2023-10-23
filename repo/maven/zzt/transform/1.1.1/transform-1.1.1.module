@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "maven.zzt",
+    "module": "transform",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "transform-1.1.1.jar",
+          "url": "transform-1.1.1.jar",
+          "size": 24892,
+          "sha512": "be5ce9fa0e5b9fe35d54680b44dc4eeb58bea29b66e89252df940b5c77b5caa0e24de77abc556edef57627cf82403574e0e82d5c5920d874460c731ddace5b7b",
+          "sha256": "4a762fbde6aa994a78f6b1b9ef3fca25734d96465cdc4102405a59590b47f8c7",
+          "sha1": "8f490db02e7c9fd5257122550a10cde5ec89948e",
+          "md5": "fdaedd8dc9ed0705c6af3fe62efde1c9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-gradle-plugin",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.ajoberstar",
+          "module": "grgit",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transform-1.1.1.jar",
+          "url": "transform-1.1.1.jar",
+          "size": 24892,
+          "sha512": "be5ce9fa0e5b9fe35d54680b44dc4eeb58bea29b66e89252df940b5c77b5caa0e24de77abc556edef57627cf82403574e0e82d5c5920d874460c731ddace5b7b",
+          "sha256": "4a762fbde6aa994a78f6b1b9ef3fca25734d96465cdc4102405a59590b47f8c7",
+          "sha1": "8f490db02e7c9fd5257122550a10cde5ec89948e",
+          "md5": "fdaedd8dc9ed0705c6af3fe62efde1c9"
+        }
+      ]
+    }
+  ]
+}
